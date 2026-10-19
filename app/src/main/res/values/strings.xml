@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">看见</string>
+
+    <!-- 界面文字（纯语音交互，仅保留标题与状态） -->
+    <string name="app_title">看见</string>
+    <string name="status_none">最近播报：暂无</string>
+    <string name="status_last">最近播报：%1$s</string>
+    <string name="status_unrecognized">未识别到命令：%1$s</string>
+    <string name="status_searching">寻找中：%1$s</string>
+    <string name="status_found">已找到：%1$s</string>
+
+    <!-- 方位（5 档，便于视障用户精确感知障碍物位置） -->
+    <string name="dir_left">左前方</string>
+    <string name="dir_slightly_left">偏左前方</string>
+    <string name="dir_ahead">正前方</string>
+    <string name="dir_slightly_right">偏右前方</string>
+    <string name="dir_right">右前方</string>
+
+    <!-- 检测框 -->
+    <string name="detection_distance">%1$s米</string>
+    <string name="detection_danger">！危险</string>
+
+    <!-- 语音播报：参数顺序为 名称、方位、距离 -->
+    <string name="speak_welcome">欢迎使用看见</string>
+    <string name="speak_not_understood">抱歉没听清，请说：找椅子、找桌子、找手机</string>
+    <string name="speak_searching">正在寻找%1$s，请将手机对准前方</string>
+    <string name="speak_search_timeout">还没找到%1$s，请继续寻找</string>
+    <string name="speak_found">%2$s%3$s米，有%1$s</string>
+    <string name="speak_danger">注意！前方有障碍物，距离%1$s米</string>
+    <string name="speak_detection_stopped">已停止识别，说开始识别可以继续</string>
+    <string name="speak_detection_started">已开始识别</string>
+    <string name="speak_saved">画面已保存到相册</string>
+    <string name="speak_exit">正在退出，再见</string>
+
+    <!-- 盲道行走模式 -->
+    <string name="speak_walk_warn">前方%1$s米，有%2$s，请注意绕行</string>
+    <string name="speak_walk_urgent">小心！前方%1$s米有%2$s</string>
+    <string name="status_walk_alert">行走模式：前方%1$s米有%2$s</string>
+    <string name="obstacle_generic">障碍物</string>
+
+    <!-- 自动联网识别 -->
+    <string name="speak_network_up">网络可用，已升级为智能识别</string>
+    <string name="speak_network_down">网络不可用，已切换本地识别</string>
+    <string name="speak_network_clear">前方无障碍物</string>
+
+    <!-- 提示 -->
+    <string name="toast_camera_permission">需要相机权限才能使用</string>
+    <string name="toast_camera_failed">无法启动摄像头</string>
+    <string name="toast_tts_unsupported">当前设备不支持中文语音播报</string>
+    <string name="toast_record_needed">需要录音权限才能语音查找</string>
+    <string name="toast_storage_needed">需要存储权限才能保存到相册</string>
+    <string name="toast_saved">已保存到相册</string>
+    <string name="toast_save_failed">保存失败</string>
+    <string name="toast_frame_not_ready">画面还没准备好，请先开启识别</string>
+
+    <!-- 相册中的保存目录名 -->
+    <string name="album_folder">看见</string>
+</resources>
